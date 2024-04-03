@@ -1,5 +1,5 @@
 {
-    "name": "symfony/yaml",
+    "name": "oldpak/yaml",
     "type": "library",
     "description": "Symfony Yaml Component",
     "keywords": [],
