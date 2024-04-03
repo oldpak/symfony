@@ -739,7 +739,7 @@ abstract class FrameworkExtensionTest extends TestCase
         $xmlMappings = $calls[3][1][0];
         $this->assertCount(3, $xmlMappings);
         try {
-            // Testing symfony/symfony
+            // Testing oldpak/symfony
             $this->assertStringEndsWith('Component'.\DIRECTORY_SEPARATOR.'Form/Resources/config/validation.xml', $xmlMappings[0]);
         } catch (\Exception $e) {
             // Testing symfony/framework-bundle with deps=high
@@ -766,7 +766,7 @@ abstract class FrameworkExtensionTest extends TestCase
         $this->assertCount(3, $xmlMappings);
 
         try {
-            // Testing symfony/symfony
+            // Testing oldpak/symfony
             $this->assertStringEndsWith('Component'.\DIRECTORY_SEPARATOR.'Form/Resources/config/validation.xml', $xmlMappings[0]);
         } catch (\Exception $e) {
             // Testing symfony/framework-bundle with deps=high
