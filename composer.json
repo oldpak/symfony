@@ -67,7 +67,7 @@
         "symfony/security-csrf": "self.version",
         "symfony/security-guard": "self.version",
         "symfony/security-http": "self.version",
-        "symfony/security-bundle": "self.version",
+        "oldpak/security-bundle": "self.version",
         "symfony/serializer": "self.version",
         "symfony/stopwatch": "self.version",
         "symfony/templating": "self.version",

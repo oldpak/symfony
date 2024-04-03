@@ -1,5 +1,5 @@
 {
-    "name": "symfony/security-bundle",
+    "name": "oldpak/security-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SecurityBundle",
     "keywords": [],
@@ -7,16 +7,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
+            "name": "oldpak",
+            "email": "2233466866@qq.com"
         }
     ],
     "require": {
-        "php": "^5.5.9|>=7.0.8",
+        "php": "^7.2",
         "ext-xml": "*",
         "symfony/config": "~3.4|~4.0",
         "symfony/security": "~3.4.38|~4.3.10|^4.4.5",
@@ -43,7 +39,7 @@
         "symfony/var-dumper": "~3.3|~4.0",
         "symfony/yaml": "~3.4|~4.0",
         "symfony/expression-language": "~2.8|~3.0|~4.0",
-        "doctrine/doctrine-bundle": "~1.5",
+        "oldpak/doctrine-bundle": "~1.0",
         "twig/twig": "~1.41|~2.10"
     },
     "conflict": {
