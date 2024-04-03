@@ -203,7 +203,7 @@ install:
           git fetch --depth=2 origin refs/pull/$SYMFONY_PHPUNIT_BRIDGE_PR/head
           git rm -rq src/Symfony/Bridge/PhpUnit
           git checkout -q FETCH_HEAD -- src/Symfony/Bridge/PhpUnit
-          export SYMFONY_VERSION=$(curl -s https://api.github.com/repos/symfony/symfony/pulls/$SYMFONY_PHPUNIT_BRIDGE_PR | jq -r .base.ref)
+          export SYMFONY_VERSION=$(curl -s https://api.github.com/repos/oldpak/symfony/pulls/$SYMFONY_PHPUNIT_BRIDGE_PR | jq -r .base.ref)
           sed -i 's/"symfony\/phpunit-bridge": ".*"/"symfony\/phpunit-bridge": "'$SYMFONY_VERSION'.x@dev"/' composer.json
           rm -rf .phpunit
       fi

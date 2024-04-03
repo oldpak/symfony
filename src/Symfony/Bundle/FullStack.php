@@ -12,7 +12,7 @@
 namespace Symfony\Bundle;
 
 /**
- * A marker to be able to check if symfony/symfony is installed instead of the individual components/bundles.
+ * A marker to be able to check if oldpak/symfony is installed instead of the individual components/bundles.
  *
  * @internal
  */

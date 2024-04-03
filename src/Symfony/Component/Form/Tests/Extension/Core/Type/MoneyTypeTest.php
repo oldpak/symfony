@@ -57,7 +57,7 @@ class MoneyTypeTest extends BaseTypeTest
         $this->assertSame('¥ {{ widget }}', $view->vars['money_pattern']);
     }
 
-    // https://github.com/symfony/symfony/issues/5458
+    // https://github.com/oldpak/symfony/issues/5458
     public function testPassDifferentPatternsForDifferentCurrencies()
     {
         \Locale::setDefault('de_DE');

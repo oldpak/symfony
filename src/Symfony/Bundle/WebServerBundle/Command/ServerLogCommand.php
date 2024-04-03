@@ -40,7 +40,7 @@ class ServerLogCommand extends Command
             return false;
         }
 
-        // based on a symfony/symfony package, it crashes due a missing FormatterInterface from monolog/monolog
+        // based on a oldpak/symfony package, it crashes due a missing FormatterInterface from monolog/monolog
         if (!interface_exists(FormatterInterface::class)) {
             return false;
         }

@@ -1795,7 +1795,7 @@ class ChoiceTypeTest extends BaseTypeTest
         $this->assertSame('name[]', $view->vars['full_name']);
     }
 
-    // https://github.com/symfony/symfony/issues/3298
+    // https://github.com/oldpak/symfony/issues/3298
     public function testInitializeWithEmptyChoices()
     {
         $this->assertInstanceOf('Symfony\Component\Form\FormInterface', $this->factory->createNamed('name', static::TESTED_TYPE, null, [

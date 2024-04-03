@@ -128,7 +128,7 @@ class DoctrineChoiceLoader implements ChoiceLoaderInterface
         // object loader. At least with MySQL and on the development machine
         // this was tested on, no exception was thrown for such invalid
         // statements, consequently no test fails when this code is removed.
-        // https://github.com/symfony/symfony/pull/8981#issuecomment-24230557
+        // https://github.com/oldpak/symfony/pull/8981#issuecomment-24230557
         if (empty($values)) {
             return [];
         }

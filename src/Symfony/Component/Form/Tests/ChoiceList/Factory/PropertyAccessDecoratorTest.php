@@ -111,7 +111,7 @@ class PropertyAccessDecoratorTest extends TestCase
         $this->assertSame('RESULT', $this->factory->createListFromLoader($loader, 'end'));
     }
 
-    // https://github.com/symfony/symfony/issues/5494
+    // https://github.com/oldpak/symfony/issues/5494
     public function testCreateFromChoicesAssumeNullIfValuePropertyPathUnreadable()
     {
         $choices = [null];
@@ -126,7 +126,7 @@ class PropertyAccessDecoratorTest extends TestCase
         $this->assertSame([null], $this->factory->createListFromChoices($choices, 'property')->getChoices());
     }
 
-    // https://github.com/symfony/symfony/issues/5494
+    // https://github.com/oldpak/symfony/issues/5494
     public function testCreateFromChoiceLoaderAssumeNullIfValuePropertyPathUnreadable()
     {
         $loader = $this->getMockBuilder('Symfony\Component\Form\ChoiceList\Loader\ChoiceLoaderInterface')->getMock();
@@ -201,7 +201,7 @@ class PropertyAccessDecoratorTest extends TestCase
         $this->assertSame([true], $this->factory->createView($list, 'property')->choices);
     }
 
-    // https://github.com/symfony/symfony/issues/5494
+    // https://github.com/oldpak/symfony/issues/5494
     public function testCreateViewAssumeNullIfPreferredChoicesPropertyPathUnreadable()
     {
         $list = $this->getMockBuilder('Symfony\Component\Form\ChoiceList\ChoiceListInterface')->getMock();
@@ -360,7 +360,7 @@ class PropertyAccessDecoratorTest extends TestCase
         $this->assertSame(['group'], $this->factory->createView($list, null, null, null, new PropertyPath('property'))->choices);
     }
 
-    // https://github.com/symfony/symfony/issues/5494
+    // https://github.com/oldpak/symfony/issues/5494
     public function testCreateViewAssumeNullIfGroupsPropertyPathUnreadable()
     {
         $list = $this->getMockBuilder('Symfony\Component\Form\ChoiceList\ChoiceListInterface')->getMock();

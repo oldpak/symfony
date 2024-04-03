@@ -121,7 +121,7 @@ class StoreTest extends TestCase
     public function testWritingARestoredResponseDoesNotCorruptCache()
     {
         /*
-         * This covers the regression reported in https://github.com/symfony/symfony/issues/37174.
+         * This covers the regression reported in https://github.com/oldpak/symfony/issues/37174.
          *
          * A restored response does *not* load the body, but only keep the file path in a special X-Body-File
          * header. For reasons (?), the file path was also used as the restored response body.

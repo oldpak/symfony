@@ -268,7 +268,7 @@ abstract class AbstractLayoutTest extends FormIntegrationTestCase
         );
     }
 
-    // https://github.com/symfony/symfony/issues/5029
+    // https://github.com/oldpak/symfony/issues/5029
     public function testLabelWithCustomTextAsOptionAndCustomAttributesPassedDirectly()
     {
         $form = $this->factory->createNamed('name', 'Symfony\Component\Form\Extension\Core\Type\TextType', null, [
@@ -500,7 +500,7 @@ abstract class AbstractLayoutTest extends FormIntegrationTestCase
         // If the field is collapsed, has no "multiple" attribute, is required but
         // has *no* empty value, the "required" must not be added, otherwise
         // the resulting HTML is invalid.
-        // https://github.com/symfony/symfony/issues/8942
+        // https://github.com/oldpak/symfony/issues/8942
 
         // HTML 5 spec
         // http://www.w3.org/html/wg/drafts/html/master/forms.html#placeholder-label-option
@@ -823,7 +823,7 @@ abstract class AbstractLayoutTest extends FormIntegrationTestCase
 
         // The "disabled" attribute was removed again due to a bug in the
         // BlackBerry 10 browser.
-        // See https://github.com/symfony/symfony/pull/7678
+        // See https://github.com/oldpak/symfony/pull/7678
         $this->assertWidgetMatchesXpath($form->createView(), [],
 '/select
     [@name="name"]
@@ -849,7 +849,7 @@ abstract class AbstractLayoutTest extends FormIntegrationTestCase
 
         // The "disabled" attribute was removed again due to a bug in the
         // BlackBerry 10 browser.
-        // See https://github.com/symfony/symfony/pull/7678
+        // See https://github.com/oldpak/symfony/pull/7678
         $this->assertWidgetMatchesXpath($form->createView(), ['placeholder' => ''],
 '/select
     [@name="name"]

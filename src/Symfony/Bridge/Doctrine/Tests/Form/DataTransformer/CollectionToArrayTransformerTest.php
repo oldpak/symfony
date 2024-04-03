@@ -45,7 +45,7 @@ class CollectionToArrayTransformerTest extends TestCase
      * result of $collection->toArray(), in order to prevent modifications of
      * the inner collection.
      *
-     * See https://github.com/symfony/symfony/pull/9308
+     * See https://github.com/oldpak/symfony/pull/9308
      */
     public function testTransformArray()
     {

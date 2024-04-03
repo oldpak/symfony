@@ -449,7 +449,7 @@ EOF;
     /**
      * Regression test for issue #7989.
      *
-     * @see https://github.com/symfony/symfony/issues/7989
+     * @see https://github.com/oldpak/symfony/issues/7989
      */
     public function testBlockLiteralWithLeadingNewlines()
     {
@@ -822,7 +822,7 @@ EOT;
         $yaml = <<<'EOT'
  &  *  !  |  >  '  "  %  @  ` #, { asd a;sdasd }-@^qw3
 EOT;
-        $tests['symfony/symfony/issues/22967#issuecomment-322067742'] = [$yaml];
+        $tests['oldpak/symfony/issues/22967#issuecomment-322067742'] = [$yaml];
 
         return $tests;
     }

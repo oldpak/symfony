@@ -114,7 +114,7 @@ class SimpleFormTest extends AbstractFormTest
         $form->getData();
     }
 
-    // https://github.com/symfony/symfony/commit/d4f4038f6daf7cf88ca7c7ab089473cce5ebf7d8#commitcomment-1632879
+    // https://github.com/oldpak/symfony/commit/d4f4038f6daf7cf88ca7c7ab089473cce5ebf7d8#commitcomment-1632879
     public function testDataIsInitializedFromSubmit()
     {
         $preSetData = false;
@@ -149,7 +149,7 @@ class SimpleFormTest extends AbstractFormTest
         $form->submit('foobar');
     }
 
-    // https://github.com/symfony/symfony/pull/7789
+    // https://github.com/oldpak/symfony/pull/7789
     public function testFalseIsConvertedToNull()
     {
         $mock = $this->getMockBuilder('\stdClass')
@@ -811,7 +811,7 @@ class SimpleFormTest extends AbstractFormTest
         $this->assertEquals(new PropertyPath('address.street'), $form->getPropertyPath());
     }
 
-    // see https://github.com/symfony/symfony/issues/3903
+    // see https://github.com/oldpak/symfony/issues/3903
     public function testGetPropertyPathDefaultsToNameIfParentHasDataClass()
     {
         $parent = $this->getBuilder(null, null, 'stdClass')
@@ -824,7 +824,7 @@ class SimpleFormTest extends AbstractFormTest
         $this->assertEquals(new PropertyPath('name'), $form->getPropertyPath());
     }
 
-    // see https://github.com/symfony/symfony/issues/3903
+    // see https://github.com/oldpak/symfony/issues/3903
     public function testGetPropertyPathDefaultsToIndexedNameIfParentDataClassIsNull()
     {
         $parent = $this->getBuilder()

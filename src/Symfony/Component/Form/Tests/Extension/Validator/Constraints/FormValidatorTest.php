@@ -265,7 +265,7 @@ class FormValidatorTest extends ConstraintValidatorTestCase
                 'invalid_message' => 'invalid_message_key',
                 // Invalid message parameters must be supported, because the
                 // invalid message can be a translation key
-                // see https://github.com/symfony/symfony/issues/5144
+                // see https://github.com/oldpak/symfony/issues/5144
                 'invalid_message_parameters' => ['{{ foo }}' => 'bar'],
             ])
             ->setData($object)
@@ -301,7 +301,7 @@ class FormValidatorTest extends ConstraintValidatorTestCase
                 'invalid_message' => 'invalid_message_key',
                 // Invalid message parameters must be supported, because the
                 // invalid message can be a translation key
-                // see https://github.com/symfony/symfony/issues/5144
+                // see https://github.com/oldpak/symfony/issues/5144
                 'invalid_message_parameters' => ['{{ foo }}' => 'bar'],
                 'validation_groups' => [],
             ])

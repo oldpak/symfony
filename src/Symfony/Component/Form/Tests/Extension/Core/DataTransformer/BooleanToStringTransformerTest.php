@@ -39,7 +39,7 @@ class BooleanToStringTransformerTest extends TestCase
         $this->assertNull($this->transformer->transform(false));
     }
 
-    // https://github.com/symfony/symfony/issues/8989
+    // https://github.com/oldpak/symfony/issues/8989
     public function testTransformAcceptsNull()
     {
         $this->assertNull($this->transformer->transform(null));

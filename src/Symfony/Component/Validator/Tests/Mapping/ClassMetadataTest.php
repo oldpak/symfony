@@ -321,7 +321,7 @@ class ClassMetadataTest extends TestCase
     }
 
     /**
-     * https://github.com/symfony/symfony/issues/11604.
+     * https://github.com/oldpak/symfony/issues/11604.
      */
     public function testGetPropertyMetadataReturnsEmptyArrayWithoutConfiguredMetadata()
     {

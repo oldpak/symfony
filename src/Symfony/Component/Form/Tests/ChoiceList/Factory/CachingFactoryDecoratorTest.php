@@ -481,7 +481,7 @@ class CachingFactoryDecoratorTest extends TestCase
         return [
             [0, 0],
             ['a', 'a'],
-            // https://github.com/symfony/symfony/issues/10409
+            // https://github.com/oldpak/symfony/issues/10409
             [\chr(181).'meter', \chr(181).'meter'], // UTF-8
             [$object, $object],
         ];

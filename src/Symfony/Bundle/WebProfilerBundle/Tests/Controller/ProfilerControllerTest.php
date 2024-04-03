@@ -133,7 +133,7 @@ class ProfilerControllerTest extends WebTestCase
     {
         return [
             [null],
-            // "empty" is also a valid empty token case, see https://github.com/symfony/symfony/issues/10806
+            // "empty" is also a valid empty token case, see https://github.com/oldpak/symfony/issues/10806
             ['empty'],
         ];
     }

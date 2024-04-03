@@ -894,7 +894,7 @@ abstract class AbstractIntlDateFormatterTest extends TestCase
     }
 
     /*
-     * https://github.com/symfony/symfony/issues/4242
+     * https://github.com/oldpak/symfony/issues/4242
      */
     public function testParseAfterError()
     {

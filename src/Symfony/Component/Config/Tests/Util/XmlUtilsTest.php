@@ -196,7 +196,7 @@ class XmlUtilsTest extends TestCase
         XmlUtils::loadFile($file);
     }
 
-    // test for issue https://github.com/symfony/symfony/issues/9731
+    // test for issue https://github.com/oldpak/symfony/issues/9731
     public function testLoadWrongEmptyXMLWithErrorHandler()
     {
         if (\LIBXML_VERSION < 20900) {

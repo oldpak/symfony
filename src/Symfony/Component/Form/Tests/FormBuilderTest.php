@@ -105,7 +105,7 @@ class FormBuilderTest extends TestCase
     }
 
     /*
-     * https://github.com/symfony/symfony/issues/4693
+     * https://github.com/oldpak/symfony/issues/4693
      */
     public function testMaintainOrderOfLazyAndExplicitChildren()
     {
@@ -138,7 +138,7 @@ class FormBuilderTest extends TestCase
         $this->assertFalse($this->builder->has('foo'));
     }
 
-    // https://github.com/symfony/symfony/pull/4826
+    // https://github.com/oldpak/symfony/pull/4826
     public function testRemoveAndGetForm()
     {
         $this->builder->add('foo', 'Symfony\Component\Form\Extension\Core\Type\TextType');

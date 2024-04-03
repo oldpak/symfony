@@ -176,7 +176,7 @@ abstract class AbstractChoiceListTest extends TestCase
         $this->assertSame([$this->choice1, $this->choice2], $this->list->getChoicesForValues($values));
     }
 
-    // https://github.com/symfony/symfony/issues/3446
+    // https://github.com/oldpak/symfony/issues/3446
     public function testGetChoicesForValuesEmpty()
     {
         $this->assertSame([], $this->list->getChoicesForValues([]));

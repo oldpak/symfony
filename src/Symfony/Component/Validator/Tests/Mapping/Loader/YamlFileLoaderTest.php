@@ -59,7 +59,7 @@ class YamlFileLoaderTest extends TestCase
     }
 
     /**
-     * @see https://github.com/symfony/symfony/pull/12158
+     * @see https://github.com/oldpak/symfony/pull/12158
      */
     public function testDoNotModifyStateIfExceptionIsThrown()
     {

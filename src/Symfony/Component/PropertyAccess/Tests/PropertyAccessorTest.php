@@ -215,7 +215,7 @@ class PropertyAccessorTest extends TestCase
         $this->assertSame([], $object->getArrayCopy());
     }
 
-    // https://github.com/symfony/symfony/pull/4450
+    // https://github.com/oldpak/symfony/pull/4450
     public function testGetValueReadsMagicGetThatReturnsConstant()
     {
         $this->assertSame('constant value', $this->propertyAccessor->getValue(new TestClassMagicGet('Bernhard'), 'constantMagicProperty'));
@@ -257,7 +257,7 @@ class PropertyAccessorTest extends TestCase
         $this->assertSame('Bernhard', $this->propertyAccessor->getValue(new TestClassMagicCall('Bernhard'), 'magicCallProperty'));
     }
 
-    // https://github.com/symfony/symfony/pull/4450
+    // https://github.com/oldpak/symfony/pull/4450
     public function testGetValueReadsMagicCallThatReturnsConstant()
     {
         $this->propertyAccessor = new PropertyAccessor(true);

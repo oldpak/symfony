@@ -620,7 +620,7 @@ class FormTypeTest extends BaseTypeTest
         $this->assertSame('baz', $view->vars['value']);
     }
 
-    // https://github.com/symfony/symfony/issues/6862
+    // https://github.com/oldpak/symfony/issues/6862
     public function testPassZeroLabelToView()
     {
         $view = $this->factory->create(static::TESTED_TYPE, null, [

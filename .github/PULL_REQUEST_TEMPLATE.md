@@ -6,7 +6,7 @@
 | Deprecations? | yes/no <!-- please update UPGRADE-*.md and src/**/CHANGELOG.md files -->
 | Tickets       | Fix #... <!-- prefix each issue number with "Fix #", no need to create an issue if none exist, explain below instead -->
 | License       | MIT
-| Doc PR        | symfony/symfony-docs#... <!-- required for new features -->
+| Doc PR        | oldpak/symfony-docs#... <!-- required for new features -->
 <!--
 Replace this notice by a short README for your feature/bugfix. This will help people
 understand your PR and can be used as a start for the documentation.

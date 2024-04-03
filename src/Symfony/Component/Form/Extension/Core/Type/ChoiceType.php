@@ -330,7 +330,7 @@ class ChoiceType extends AbstractType
             'compound' => $compound,
             // The view data is always a string or an array of strings,
             // even if the "data" option is manually set to an object.
-            // See https://github.com/symfony/symfony/pull/5582
+            // See https://github.com/oldpak/symfony/pull/5582
             'data_class' => null,
             'choice_translation_domain' => true,
             'trim' => false,
