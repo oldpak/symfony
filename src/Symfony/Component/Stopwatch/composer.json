@@ -1,5 +1,5 @@
 {
-    "name": "symfony/stopwatch",
+    "name": "oldpak/stopwatch",
     "type": "library",
     "description": "Symfony Stopwatch Component",
     "keywords": [],

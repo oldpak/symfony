@@ -1,5 +1,5 @@
 {
-    "name": "symfony/lock",
+    "name": "oldpak/lock",
     "type": "library",
     "description": "Symfony Lock Component",
     "keywords": ["locking", "redlock", "mutex", "semaphore", "flock", "cas"],

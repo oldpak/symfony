@@ -1,5 +1,5 @@
 {
-    "name": "symfony/translation",
+    "name": "oldpak/translation",
     "type": "library",
     "description": "Symfony Translation Component",
     "keywords": [],

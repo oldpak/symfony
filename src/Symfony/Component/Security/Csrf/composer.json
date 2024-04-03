@@ -1,5 +1,5 @@
 {
-    "name": "symfony/security-csrf",
+    "name": "oldpak/security-csrf",
     "type": "library",
     "description": "Symfony Security Component - CSRF Library",
     "keywords": [],

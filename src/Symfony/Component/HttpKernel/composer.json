@@ -1,5 +1,5 @@
 {
-    "name": "symfony/http-kernel",
+    "name": "oldpak/http-kernel",
     "type": "library",
     "description": "Symfony HttpKernel Component",
     "keywords": [],

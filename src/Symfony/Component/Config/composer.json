@@ -1,5 +1,5 @@
 {
-    "name": "symfony/config",
+    "name": "oldpak/config",
     "type": "library",
     "description": "Symfony Config Component",
     "keywords": [],

@@ -1,5 +1,5 @@
 {
-    "name": "symfony/twig-bridge",
+    "name": "oldpak/twig-bridge",
     "type": "symfony-bridge",
     "description": "Symfony Twig Bridge",
     "keywords": [],

@@ -1,5 +1,5 @@
 {
-    "name": "symfony/web-profiler-bundle",
+    "name": "oldpak/web-profiler-bundle",
     "type": "symfony-bundle",
     "description": "Symfony WebProfilerBundle",
     "keywords": [],

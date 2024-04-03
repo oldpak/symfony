@@ -1,5 +1,5 @@
 {
-    "name": "symfony/proxy-manager-bridge",
+    "name": "oldpak/proxy-manager-bridge",
     "type": "symfony-bridge",
     "description": "Symfony ProxyManager Bridge",
     "keywords": [],

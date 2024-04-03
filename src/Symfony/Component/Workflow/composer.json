@@ -1,5 +1,5 @@
 {
-    "name": "symfony/workflow",
+    "name": "oldpak/workflow",
     "type": "library",
     "description": "Symfony Workflow Component",
     "keywords": ["workflow", "petrinet", "place", "transition", "statemachine", "state"],

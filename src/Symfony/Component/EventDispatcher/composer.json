@@ -1,5 +1,5 @@
 {
-    "name": "symfony/event-dispatcher",
+    "name": "oldpak/event-dispatcher",
     "type": "library",
     "description": "Symfony EventDispatcher Component",
     "keywords": [],

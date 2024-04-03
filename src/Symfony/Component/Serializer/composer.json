@@ -1,5 +1,5 @@
 {
-    "name": "symfony/serializer",
+    "name": "oldpak/serializer",
     "type": "library",
     "description": "Symfony Serializer Component",
     "keywords": [],

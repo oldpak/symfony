@@ -1,5 +1,5 @@
 {
-    "name": "symfony/options-resolver",
+    "name": "oldpak/options-resolver",
     "type": "library",
     "description": "Symfony OptionsResolver Component",
     "keywords": ["options", "config", "configuration"],

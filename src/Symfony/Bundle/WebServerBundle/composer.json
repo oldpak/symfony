@@ -1,5 +1,5 @@
 {
-    "name": "symfony/web-server-bundle",
+    "name": "oldpak/web-server-bundle",
     "type": "symfony-bundle",
     "description": "Symfony WebServerBundle",
     "keywords": [],

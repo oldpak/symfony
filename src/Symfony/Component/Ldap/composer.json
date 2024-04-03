@@ -1,5 +1,5 @@
 {
-    "name": "symfony/ldap",
+    "name": "oldpak/ldap",
     "type": "library",
     "description": "An abstraction in front of PHP's LDAP functions, compatible with PHP 5.3.9 onwards.",
     "keywords": ["ldap", "active directory"],

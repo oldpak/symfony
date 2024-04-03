@@ -1,5 +1,5 @@
 {
-    "name": "symfony/console",
+    "name": "oldpak/console",
     "type": "library",
     "description": "Symfony Console Component",
     "keywords": [],

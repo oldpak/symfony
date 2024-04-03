@@ -1,5 +1,5 @@
 {
-    "name": "symfony/inflector",
+    "name": "oldpak/inflector",
     "type": "library",
     "description": "Symfony Inflector Component",
     "keywords": [

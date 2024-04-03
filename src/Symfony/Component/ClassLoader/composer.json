@@ -1,5 +1,5 @@
 {
-    "name": "symfony/class-loader",
+    "name": "oldpak/class-loader",
     "type": "library",
     "description": "Symfony ClassLoader Component",
     "keywords": [],

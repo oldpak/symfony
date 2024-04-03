@@ -1,5 +1,5 @@
 {
-    "name": "symfony/http-foundation",
+    "name": "oldpak/http-foundation",
     "type": "library",
     "description": "Symfony HttpFoundation Component",
     "keywords": [],

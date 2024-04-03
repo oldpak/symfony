@@ -1,5 +1,5 @@
 {
-    "name": "symfony/validator",
+    "name": "oldpak/validator",
     "type": "library",
     "description": "Symfony Validator Component",
     "keywords": [],

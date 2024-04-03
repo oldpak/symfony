@@ -1,5 +1,5 @@
 {
-    "name": "symfony/security-http",
+    "name": "oldpak/security-http",
     "type": "library",
     "description": "Symfony Security Component - HTTP Integration",
     "keywords": [],

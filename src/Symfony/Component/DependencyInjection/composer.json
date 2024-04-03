@@ -1,5 +1,5 @@
 {
-    "name": "symfony/dependency-injection",
+    "name": "oldpak/dependency-injection",
     "type": "library",
     "description": "Symfony DependencyInjection Component",
     "keywords": [],

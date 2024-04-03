@@ -1,5 +1,5 @@
 {
-    "name": "symfony/cache",
+    "name": "oldpak/cache",
     "type": "library",
     "description": "Symfony Cache component with PSR-6, PSR-16, and tags",
     "keywords": ["caching", "psr6"],

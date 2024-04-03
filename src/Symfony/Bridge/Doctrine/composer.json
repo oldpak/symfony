@@ -1,5 +1,5 @@
 {
-    "name": "symfony/doctrine-bridge",
+    "name": "oldpak/doctrine-bridge",
     "type": "symfony-bridge",
     "description": "Symfony Doctrine Bridge",
     "keywords": [],

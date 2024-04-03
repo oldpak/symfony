@@ -1,5 +1,5 @@
 {
-    "name": "symfony/browser-kit",
+    "name": "oldpak/browser-kit",
     "type": "library",
     "description": "Symfony BrowserKit Component",
     "keywords": [],

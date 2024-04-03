@@ -1,5 +1,5 @@
 {
-    "name": "symfony/security-core",
+    "name": "oldpak/security-core",
     "type": "library",
     "description": "Symfony Security Component - Core Library",
     "keywords": [],

@@ -1,5 +1,5 @@
 {
-    "name": "symfony/dom-crawler",
+    "name": "oldpak/dom-crawler",
     "type": "library",
     "description": "Symfony DomCrawler Component",
     "keywords": [],

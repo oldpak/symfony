@@ -1,5 +1,5 @@
 {
-    "name": "symfony/templating",
+    "name": "oldpak/templating",
     "type": "library",
     "description": "Symfony Templating Component",
     "keywords": [],

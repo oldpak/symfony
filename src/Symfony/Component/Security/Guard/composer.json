@@ -1,5 +1,5 @@
 {
-    "name": "symfony/security-guard",
+    "name": "oldpak/security-guard",
     "type": "library",
     "description": "Symfony Security Component - Guard",
     "keywords": [],

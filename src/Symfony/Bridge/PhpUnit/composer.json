@@ -1,5 +1,5 @@
 {
-    "name": "symfony/phpunit-bridge",
+    "name": "oldpak/phpunit-bridge",
     "type": "symfony-bridge",
     "description": "Symfony PHPUnit Bridge",
     "keywords": [],

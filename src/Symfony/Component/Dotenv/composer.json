@@ -1,5 +1,5 @@
 {
-    "name": "symfony/dotenv",
+    "name": "oldpak/dotenv",
     "type": "library",
     "description": "Registers environment variables from a .env file",
     "keywords": ["environment", "env", "dotenv"],

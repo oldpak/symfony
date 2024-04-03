@@ -1,5 +1,5 @@
 {
-    "name": "symfony/web-link",
+    "name": "oldpak/web-link",
     "type": "library",
     "description": "Symfony WebLink Component",
     "keywords": ["link", "psr13", "http", "http2", "preload", "prefetch", "prerender", "dns-prefetch", "push", "performance"],

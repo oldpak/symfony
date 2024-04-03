@@ -1,5 +1,5 @@
 {
-    "name": "symfony/twig-bundle",
+    "name": "oldpak/twig-bundle",
     "type": "symfony-bundle",
     "description": "Symfony TwigBundle",
     "keywords": [],

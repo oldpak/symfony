@@ -1,5 +1,5 @@
 {
-    "name": "symfony/monolog-bridge",
+    "name": "oldpak/monolog-bridge",
     "type": "symfony-bridge",
     "description": "Symfony Monolog Bridge",
     "keywords": [],

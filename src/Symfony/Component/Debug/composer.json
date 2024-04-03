@@ -1,5 +1,5 @@
 {
-    "name": "symfony/debug",
+    "name": "oldpak/debug",
     "type": "library",
     "description": "Symfony Debug Component",
     "keywords": [],

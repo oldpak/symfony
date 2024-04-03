@@ -1,5 +1,5 @@
 {
-    "name": "symfony/framework-bundle",
+    "name": "oldpak/framework-bundle",
     "type": "symfony-bundle",
     "description": "Symfony FrameworkBundle",
     "keywords": [],
